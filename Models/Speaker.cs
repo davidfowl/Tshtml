@@ -1,4 +1,4 @@
-namespace NdcOslo2017
+namespace Tshtml
 {
     public class Speaker
     {

@@ -1,4 +1,7 @@
-namespace Ndc2017Talk2
+using System.Collections.Generic;
+using Microsoft.AspNetCore.Mvc;
+
+namespace Tshtml
 {
     public class SpeakersController 
     {
