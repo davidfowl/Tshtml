@@ -1,0 +1,19 @@
+@page
+@model SpeakersModel
+
+<div class="speaker-list">
+    <h1>NDC Oslo 2017</h1>
+
+    <div class="row">
+        @for (var speaker of Model.speakers)
+        {
+            <div class="col-md-3">
+                <div class="panel panel-default speaker">
+                    <div class="panel-body">
+                        <h3 class="panel-title"><a asp-page="Speaker" asp-route-id="@speaker.id">@speaker.name</a></h3>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
